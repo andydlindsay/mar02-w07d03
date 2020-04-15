@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import UseEffect from './components/UseEffect';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <h2>useEffect</h2>
+      <UseEffect />
     </div>
   );
 }
